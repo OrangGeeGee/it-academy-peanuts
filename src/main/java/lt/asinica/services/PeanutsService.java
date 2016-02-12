@@ -31,8 +31,8 @@ public class PeanutsService {
        return peanutList;
    }
 
-    @RequestMapping(value="/peanuts", method = RequestMethod.PUT)
-    public void create(String name) {
+    @RequestMapping(value="/peanuts/{name}", method = RequestMethod.PUT)
+    public void create(@PathVariable String name) {
         peanutList.addPeanut(new Peanut(name));
     }
 
