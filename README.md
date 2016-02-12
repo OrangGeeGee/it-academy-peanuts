@@ -12,7 +12,7 @@ Execute
 gradlew bootRun
 ```
 
-This will start your application boostrapped by Spring.
+This will start your application boostrapped by `Spring`.
 
 Origin a.k.a you can make your own
 https://start.spring.io/
